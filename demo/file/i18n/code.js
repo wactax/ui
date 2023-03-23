@@ -1,0 +1,1 @@
+export const TYPE=0,SLOGAN=1,SIGN_UP=2,SIGN_IN=3;

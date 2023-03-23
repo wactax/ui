@@ -1,0 +1,75 @@
+.auth
+  background #fff
+  border-radius 4px
+  box-shadow 0 0 3px rgba(0, 0, 0, 0.2)
+  box-sizing border-box
+  line-height 1.625
+  width 23em
+
+  &>header
+    align-items center
+    display flex
+    justify-content space-evenly
+    margin 0 0 0.5em
+    padding 1.5em 2em 0
+    user-select none
+
+    &>.logo
+      background url('./logo.svg') 51% 51% / 89% no-repeat
+      border 5px solid #f00
+      border-radius 3.2em
+      flex-shrink 0
+      height 2.6em
+      margin-right 0.5em
+      margin-top -0.7em
+      padding 0.4em
+      width 2.6em
+
+    &>.org
+      align-items center
+      color #f00
+      display flex
+      flex 1
+      flex-direction column
+      text-align center
+
+      &>b
+        font-family 'Josefin Sans', 'Noto Sans SC'
+
+      &>b:first-child
+        font-size 2.6em
+        letter-spacing 3px
+        margin -0.2em auto
+
+      &>b:last-child
+        font-size 1.05em
+        line-height 1.2em
+        margin-bottom 0.5em
+
+        &>i
+          color #f00
+          font-style normal
+          margin 0
+          text-align center
+
+        &>span
+          position relative
+          top -2px
+
+.i18Nnso
+  .auth
+    .org
+      &>b:last-child
+        font-size 15px
+
+.i18Nen
+  .auth
+    .org
+      &>b:last-child
+        letter-spacing 1px
+
+.i18Nzh, .i18Nzh-TW
+  .auth
+    .org
+      &>b:last-child
+        letter-spacing 5px

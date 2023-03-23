@@ -1,0 +1,60 @@
+@import './reset.css'
+@import './wac.tax.css'
+
+body>main
+  align-items center
+  background url('./bg.svg') 0 0 / cover no-repeat
+  display flex
+  flex-direction column
+  height 100vh
+  justify-content center
+  overflow auto
+  width 100vw
+
+  &>nav
+    align-items center
+    background rgba(255, 255, 255, 0.6)
+    box-shadow 0 1em 1em -1em #ccc inset
+    display flex
+    height 4rem
+    justify-content center
+    position absolute
+    top 0
+    user-select none
+    width 100%
+
+    &>b
+      position relative
+
+    &>u-menu
+      font-size 1em
+      font-weight bold
+      margin-right 1.5em
+
+      &>a
+        &:first-child
+          margin-right 0.5em
+
+        &:last-child
+          margin-left 0.5em
+
+    a
+      border-bottom 2px solid transparent
+      color #000
+      cursor pointer
+      font-size 18px
+      font-weight 600
+      line-height 1.6
+      padding-bottom 4px
+
+    a:hover
+      border-color #f40
+      color #f40
+
+    &>a
+      margin-right 1.5em
+
+      &:first-child
+        font-family 'Josefin Sans'
+        line-height 0.9
+        margin-bottom -11px

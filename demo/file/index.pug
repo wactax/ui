@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(
+      content="width=device-width,initial-scale=1.0,shrink-to-fit=no"
+      name="viewport"
+    )
+
+    style.
+      @import "./index.css";
+      @import "../Box.css";
+      @import "../red.css";
+
+  body
+    main
+      nav
+        a(href=".") WAC.Tax
+        u-menu
+          a
+            i-t SIGN_IN
+          | /
+          a
+            i-t.up SIGN_UP
+        u-i18n
+      .auth
+        header
+          b.logo
+          b.org
+            b WAC.Tax
+            b
+              i-slogan
+        u-sign
+    script(
+      src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.12/typed.min.js"
+    )
+    script(src="./index.js" type="module")
