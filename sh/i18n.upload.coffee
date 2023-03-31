@@ -1,7 +1,6 @@
 #!/usr/bin/env coffee
 
 > @w5/ossput
-  ./ossLi.mjs
   ./env > ROOT SRC
   path > join basename
   @w5/walk:@ > walkRel
@@ -16,9 +15,10 @@
 
 i18n_dir = join(ROOT,'i18n')
 
+_put = await ossput process.env.BUCKET_I18N
+
 put = (args...)=>
-  put = ossput await ossLi(process.env.BUCKET_I18N)
-  put ...args
+  _put ...args
 
 upload = (dir, ver, file_li)=>
   for i from file_li

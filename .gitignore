@@ -9,6 +9,5 @@ conf/*.js
 /lib/
 /dist/
 /i18n/
-/sh/ossLi.mjs
 /src/LANG_NAME.js
 
