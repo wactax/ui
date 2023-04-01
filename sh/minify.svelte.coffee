@@ -8,7 +8,6 @@
   base-x:BaseX
   fs
   fs/promises > writeFile
-  into-stream:intoStream
   path > join dirname
   stream/promises > pipeline
 
