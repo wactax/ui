@@ -1,6 +1,8 @@
 #!/usr/bin/env coffee
 
-> @w5/ossput
+process.env.OSSPUT_BUCKET = process.env.BUCKET_I18N
+
+> @w5/ossput:put
   ./env > ROOT SRC
   path > join basename
   @w5/walk:@ > walkRel
@@ -14,11 +16,6 @@
 {encodeInt,decodeToInt} = Radia64()
 
 i18n_dir = join(ROOT,'i18n')
-
-_put = await ossput process.env.BUCKET_I18N
-
-put = (args...)=>
-  _put ...args
 
 upload = (dir, ver, file_li)=>
   for i from file_li
