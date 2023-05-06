@@ -31,8 +31,8 @@ devDependencies:
     specifier: ^7.21.5
     version: 7.21.5(@babel/core@7.21.8)
   '@prettier/plugin-pug':
-    specifier: ^2.4.2
-    version: 2.4.2(prettier@2.8.8)
+    specifier: ^2.5.0
+    version: 2.5.0(prettier@2.8.8)
   '@tanishiking/aho-corasick':
     specifier: ^0.0.1
     version: 0.0.1
@@ -65,7 +65,7 @@ devDependencies:
     version: 0.0.1
   '@w5/svelte-preprocess':
     specifier: ^5.0.10
-    version: 5.0.10(@babel/core@7.21.8)(coffeescript@2.7.0)(postcss@8.4.23)(pug@3.0.2)(stylus@0.59.0)(svelte@3.58.0)
+    version: 5.0.10(@babel/core@7.21.8)(coffeescript@2.7.0)(postcss@8.4.23)(pug@3.0.2)(stylus@0.59.0)(svelte@3.59.0)
   '@w5/svelteup':
     specifier: ^2.0.29
     version: 2.0.29
@@ -110,7 +110,7 @@ devDependencies:
     version: 0.1.15(eslint-plugin-react-hooks@4.6.0)(eslint@8.39.0)
   eslint-plugin-svelte3:
     specifier: ^4.0.0
-    version: 4.0.0(eslint@8.39.0)(svelte@3.58.0)
+    version: 4.0.0(eslint@8.39.0)(svelte@3.59.0)
   fs-extra:
     specifier: ^11.1.1
     version: 11.1.1
@@ -157,8 +157,8 @@ devDependencies:
     specifier: ^0.59.0
     version: 0.59.0
   svelte:
-    specifier: ^3.58.0
-    version: 3.58.0
+    specifier: ^3.59.0
+    version: 3.59.0
   typed.js:
     specifier: ^2.0.132
     version: 2.0.132
@@ -2710,9 +2710,9 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@prettier/plugin-pug@2.4.2(prettier@2.8.8):
-    resolution: {integrity: sha512-NYno1b0ZIY/2/wIiPSIWVRbWdhJ7KPkwjOo/xzWOZYUA35ZrwaEQshoEoLEizUrnizBuIgW93E9kqIrJEjBang==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
+  /@prettier/plugin-pug@2.5.0(prettier@2.8.8):
+    resolution: {integrity: sha512-wanovQUyfTLPGp6M622R7qPX7QMsJHmxFCMckOdOtZd0cWr7zv6uI7EGXOAL4qUp5wY9ZolIxp23JkMCWX5Mvg==}
+    engines: {node: ^16.13.0 || >=18.0.0, npm: '>=7.10.0'}
     peerDependencies:
       prettier: ^2.3.0
     dependencies:
@@ -2948,7 +2948,7 @@ packages:
     resolution: {integrity: sha512-WdUByHJ2YYJ3G7h2HN/YASAB2MffEOs94yNgTPfbbodQgoeDpI2N//HSg1l+h9NyLKWY32VCHi9utEOMZHdsmA==}
     dev: true
 
-  /@w5/svelte-preprocess@5.0.10(@babel/core@7.21.8)(coffeescript@2.7.0)(postcss@8.4.23)(pug@3.0.2)(stylus@0.59.0)(svelte@3.58.0):
+  /@w5/svelte-preprocess@5.0.10(@babel/core@7.21.8)(coffeescript@2.7.0)(postcss@8.4.23)(pug@3.0.2)(stylus@0.59.0)(svelte@3.59.0):
     resolution: {integrity: sha512-Zg6Cd6ddZWex2x1WCsWtf7oAagN0Ei+HpxIwZ2nZN7HuSKqRgZEa7lGDPtbozkf66L7CAzWbq3opZshcSP3zOA==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -2997,7 +2997,7 @@ packages:
       sorcery: 0.11.0
       strip-indent: 3.0.0
       stylus: 0.59.0
-      svelte: 3.58.0
+      svelte: 3.59.0
     dev: true
 
   /@w5/svelteup@2.0.29:
@@ -3006,13 +3006,13 @@ packages:
     dependencies:
       bundle-require: 4.0.1(esbuild@0.17.18)
       esbuild: 0.17.18
-      esbuild-svelte: 0.7.3(esbuild@0.17.18)(svelte@3.58.0)
+      esbuild-svelte: 0.7.3(esbuild@0.17.18)(svelte@3.59.0)
       fast-glob: 3.2.12
       fs-extra: 11.1.1
       livereload: 0.9.3
       sade: 1.8.1
       sirv: 2.0.2
-      svelte: 3.58.0
+      svelte: 3.59.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4018,7 +4018,7 @@ packages:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
     dev: true
 
-  /esbuild-svelte@0.7.3(esbuild@0.17.18)(svelte@3.58.0):
+  /esbuild-svelte@0.7.3(esbuild@0.17.18)(svelte@3.59.0):
     resolution: {integrity: sha512-aq4PjZowV2LhW5U6KYKDkaHiAp9q/NquthbX1tddGRGYrlaBBGgDNis58jNU4wU6+iHsNWfLVsg8G3W6ccszdw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4026,7 +4026,7 @@ packages:
       svelte: '>=3.43.0'
     dependencies:
       esbuild: 0.17.18
-      svelte: 3.58.0
+      svelte: 3.59.0
     dev: true
 
   /esbuild@0.17.18:
@@ -4278,14 +4278,14 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-svelte3@4.0.0(eslint@8.39.0)(svelte@3.58.0):
+  /eslint-plugin-svelte3@4.0.0(eslint@8.39.0)(svelte@3.59.0):
     resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
     peerDependencies:
       eslint: '>=8.0.0'
       svelte: ^3.2.0
     dependencies:
       eslint: 8.39.0
-      svelte: 3.58.0
+      svelte: 3.59.0
     dev: true
 
   /eslint-scope@3.7.3:
@@ -6499,8 +6499,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte@3.58.0:
-    resolution: {integrity: sha512-brIBNNB76mXFmU/Kerm4wFnkskBbluBDCjx/8TcpYRb298Yh2dztS2kQ6bhtjMcvUhd5ynClfwpz5h2gnzdQ1A==}
+  /svelte@3.59.0:
+    resolution: {integrity: sha512-Di1wVPwdWriw5pSyInMRpr5EZmwrzKxtDKv5aXu8A/WDUi59Y5bIvl42eLef0x1vwz+ZtrjdnT8nXir2bDqR/A==}
     engines: {node: '>= 8'}
     dev: true
 
