@@ -40,7 +40,7 @@ AuthAgree(async () => {
 		),
 		[md, marked] = await Promise.all([
 			(async () => (await fetch(CDN + `user/${ver}/law.` + lang())).text())(),
-			import("//cdn.bootcdn.net/ajax/libs/marked/4.2.12/lib/marked.esm.min.js"),
+			import("//cdn.staticfile.org/marked/5.0.0/lib/marked.esm.min.js"),
 		]);
 	dialog.lastChild.innerHTML = marked.parse(md);
 	dialog.style = "width:85vw;max-width:750px";
