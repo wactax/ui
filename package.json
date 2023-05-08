@@ -61,7 +61,7 @@
     "pug-cli": "1.0.0-alpha6",
     "styl": "link:../styl/src",
     "stylus": "^0.59.0",
-    "svelte": "^3.59.0",
+    "svelte": "^3.59.1",
     "typed.js": "^2.0.132",
     "uglify-js": "^3.17.4",
     "wtax": "^0.0.2",
