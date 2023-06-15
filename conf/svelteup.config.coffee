@@ -4,6 +4,15 @@
   ./markup
   ./postcss
   ./env > DEV SRC ROOT
+  @w5/write
+
+write(
+  join(
+    ROOT
+    'lib/DEV.js'
+  )
+  'export default '+DEV
+)
 
 IGNORE_WARN = new Set(
   'a11y-click-events-have-key-events a11y-missing-content'.split(' ')
@@ -35,6 +44,11 @@ IGNORE_WARN = new Set(
       markup
     }
     SveltePreprocess({
+      sourceMap: true
+      coffeescript: {
+        label:true
+        sourceMap: true
+      }
       babel:
         presets: [
           [
@@ -48,11 +62,6 @@ IGNORE_WARN = new Set(
             }
           ]
         ]
-      sourceMap: true
-      coffeescript: {
-        label:true
-        sourceMap: true
-      }
       stylus: true
       pug: {
         basedir: SRC

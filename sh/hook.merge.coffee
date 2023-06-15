@@ -16,6 +16,7 @@ hook.merge (dir, name_li)=>
     for i from DIR
       js = i+'/'+name+'.js'
       if existsSync(join(LIB, js))
+        console.log js
         m = 'm'+n
         out_import.push "import #{m} from '!/#{js}'"
         out_export.push m
