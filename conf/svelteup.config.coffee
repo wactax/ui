@@ -15,7 +15,7 @@ write(
 )
 
 IGNORE_WARN = new Set(
-  'a11y-click-events-have-key-events a11y-missing-content'.split(' ')
+  'a11y-no-noninteractive-element-interactions a11y-click-events-have-key-events a11y-missing-content a11y-no-static-element-interactions'.split(' ')
 )
 < {
   entry: join SRC,'index.js'

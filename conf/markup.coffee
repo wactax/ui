@@ -150,7 +150,7 @@ LI = [
     if css.trim()
       code += """<style lang="stylus">@import 'styl/#{styl}'</style>"""
 
-    code + """<svelte:options tag="u-#{key}"/>"""
+    code + """<svelte:options customElement="u-#{key}"/>"""
 
 ]
 
