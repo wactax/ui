@@ -116,9 +116,10 @@ rename_attr = (li)=>
       t = []
 
   js = li.join('\n')
-  replace[0].splice(0,0,...'target anchor customElement'.split(' '))
-  for l from replace
-    js = rename(js, l)
+  if replace.length
+    replace[0].splice(0,0,...'target anchor customElement'.split(' '))
+    for l from replace
+      js = rename(js, l)
 
   js
 
