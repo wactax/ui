@@ -67,8 +67,8 @@ devDependencies:
     specifier: ^5.0.13
     version: 5.0.13(@babel/core@7.22.5)(coffeescript@2.7.0)(postcss@8.4.24)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.0)
   '@w5/svelteup':
-    specifier: ^2.0.31
-    version: 2.0.31
+    specifier: ^2.0.32
+    version: 2.0.32
   '@w5/u8':
     specifier: ^0.0.3
     version: 0.0.3
@@ -3275,8 +3275,8 @@ packages:
       svelte: 4.0.0
     dev: true
 
-  /@w5/svelteup@2.0.31:
-    resolution: {integrity: sha512-tpK+NRdii8JzmaY99RhbV5Sj3QQzpxbn0DZ+Wd0J7Eqp99J4pPq5SH/vdO/T1082jRMyyH4tsjg5WwKB3T8MRA==}
+  /@w5/svelteup@2.0.32:
+    resolution: {integrity: sha512-UqlKOZKSG231z8hNBL8sKbYYh1MVzUSSL738bxQT61ShLD+BpMQpzMgFppiuTZfd5mksMhUYo0U0QSRyXtW3tA==}
     hasBin: true
     dependencies:
       bundle-require: 4.0.1(esbuild@0.18.7)
