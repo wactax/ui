@@ -64,11 +64,11 @@ devDependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/svelte-preprocess':
-    specifier: ^5.0.12
-    version: 5.0.12(@babel/core@7.22.5)(coffeescript@2.7.0)(postcss@8.4.24)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.0)
+    specifier: ^5.0.13
+    version: 5.0.13(@babel/core@7.22.5)(coffeescript@2.7.0)(postcss@8.4.24)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.0)
   '@w5/svelteup':
-    specifier: ^2.0.30
-    version: 2.0.30
+    specifier: ^2.0.31
+    version: 2.0.31
   '@w5/u8':
     specifier: ^0.0.3
     version: 0.0.3
@@ -3223,8 +3223,8 @@ packages:
     resolution: {integrity: sha512-WdUByHJ2YYJ3G7h2HN/YASAB2MffEOs94yNgTPfbbodQgoeDpI2N//HSg1l+h9NyLKWY32VCHi9utEOMZHdsmA==}
     dev: true
 
-  /@w5/svelte-preprocess@5.0.12(@babel/core@7.22.5)(coffeescript@2.7.0)(postcss@8.4.24)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.0):
-    resolution: {integrity: sha512-PFVco1xvApLModjdhqDzwAUqtXUyaBhcR8GFpJPByEICsUC1LOcw2IVOCi3/CsL8X8Wk4U65ezagXho/99CFVw==}
+  /@w5/svelte-preprocess@5.0.13(@babel/core@7.22.5)(coffeescript@2.7.0)(postcss@8.4.24)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.0):
+    resolution: {integrity: sha512-SIMMTPXlBtmvUL7kyTrqPq0QYlwxGCySHoaCXA73EwBKANI5DjRPMbYWIqSN6X+gVkgPcBYb03aWO1lRm7Racg==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
@@ -3275,19 +3275,19 @@ packages:
       svelte: 4.0.0
     dev: true
 
-  /@w5/svelteup@2.0.30:
-    resolution: {integrity: sha512-1XiYH36xxyeJ8TuhwLy+jTlP4qNjG5wgLzzyAT/0zUxDpaUPfIdcAZjRi/x0sREHU3qlRNrN2A9gonrB3Gm0sA==}
+  /@w5/svelteup@2.0.31:
+    resolution: {integrity: sha512-tpK+NRdii8JzmaY99RhbV5Sj3QQzpxbn0DZ+Wd0J7Eqp99J4pPq5SH/vdO/T1082jRMyyH4tsjg5WwKB3T8MRA==}
     hasBin: true
     dependencies:
       bundle-require: 4.0.1(esbuild@0.18.7)
       esbuild: 0.18.7
-      esbuild-svelte: 0.7.3(esbuild@0.18.7)(svelte@3.59.1)
+      esbuild-svelte: 0.7.3(esbuild@0.18.7)(svelte@4.0.0)
       fast-glob: 3.2.12
       fs-extra: 11.1.1
       livereload: 0.9.3
       sade: 1.8.1
       sirv: 2.0.3
-      svelte: 3.59.1
+      svelte: 4.0.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4432,7 +4432,7 @@ packages:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
     dev: true
 
-  /esbuild-svelte@0.7.3(esbuild@0.18.7)(svelte@3.59.1):
+  /esbuild-svelte@0.7.3(esbuild@0.18.7)(svelte@4.0.0):
     resolution: {integrity: sha512-aq4PjZowV2LhW5U6KYKDkaHiAp9q/NquthbX1tddGRGYrlaBBGgDNis58jNU4wU6+iHsNWfLVsg8G3W6ccszdw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4440,7 +4440,7 @@ packages:
       svelte: '>=3.43.0'
     dependencies:
       esbuild: 0.18.7
-      svelte: 3.59.1
+      svelte: 4.0.0
     dev: true
 
   /esbuild@0.18.7:
@@ -5833,7 +5833,7 @@ packages:
     resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /make-dir@2.1.0:
@@ -7064,7 +7064,7 @@ packages:
     resolution: {integrity: sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==}
     hasBin: true
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
       buffer-crc32: 0.2.13
       minimist: 1.2.8
       sander: 0.5.1
@@ -7300,11 +7300,6 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
-
-  /svelte@3.59.1:
-    resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
-    engines: {node: '>= 8'}
-    dev: true
 
   /svelte@4.0.0:
     resolution: {integrity: sha512-+yCYu3AEUu9n91dnQNGIbnVp8EmNQtuF/YImW4+FTXRHard7NMo+yTsWzggPAbj3fUEJ1FBJLkql/jkp6YB5pg==}
