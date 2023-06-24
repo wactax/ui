@@ -1,5 +1,6 @@
 import { API, CDN } from "./conf.js";
 import { init } from "../_/SDK.js";
+
 init(API, CDN);
 
 import { waySet } from "../user/WAY.js";
