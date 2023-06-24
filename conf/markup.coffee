@@ -84,6 +84,7 @@ LI = [
             r = li.join('= _SUBMIT `()=>I18N`,')
             r
         ).replace(
+          # onMe onLi onMount
           /^on(Li|Me)([\s(])/mg
           (line)=>
             'onMount => '+line
