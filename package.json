@@ -43,7 +43,7 @@
     "chokidar": "^3.5.3",
     "coffeescript": "^2.7.0",
     "concurrently": "^8.2.0",
-    "esbuild": "^0.18.7",
+    "esbuild": "^0.18.9",
     "eslint-plugin-coffee": "^0.1.15",
     "eslint-plugin-svelte3": "^4.0.0",
     "fs-extra": "^11.1.1",
