@@ -69,7 +69,7 @@ devDependencies:
     version: 0.0.1
   '@w5/svelte-preprocess':
     specifier: ^5.0.15
-    version: 5.0.15(@babel/core@7.22.9)(coffeescript@2.7.0)(postcss@8.4.25)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.5)
+    version: 5.0.15(@babel/core@7.22.9)(coffeescript@2.7.0)(postcss@8.4.26)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.5)
   '@w5/svelteup':
     specifier: ^2.0.33
     version: 2.0.33
@@ -90,7 +90,7 @@ devDependencies:
     version: 0.0.1
   autoprefixer:
     specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.25)
+    version: 10.4.14(postcss@8.4.26)
   base-x:
     specifier: ^4.0.0
     version: 4.0.0
@@ -137,11 +137,11 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1
   postcss:
-    specifier: ^8.4.25
-    version: 8.4.25
+    specifier: ^8.4.26
+    version: 8.4.26
   postcss-csso:
     specifier: ^6.0.1
-    version: 6.0.1(postcss@8.4.25)
+    version: 6.0.1(postcss@8.4.26)
   postcss-plugin-px2em:
     specifier: ^1.0.1
     version: 1.0.1
@@ -3218,7 +3218,7 @@ packages:
     resolution: {integrity: sha512-WdUByHJ2YYJ3G7h2HN/YASAB2MffEOs94yNgTPfbbodQgoeDpI2N//HSg1l+h9NyLKWY32VCHi9utEOMZHdsmA==}
     dev: true
 
-  /@w5/svelte-preprocess@5.0.15(@babel/core@7.22.9)(coffeescript@2.7.0)(postcss@8.4.25)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.5):
+  /@w5/svelte-preprocess@5.0.15(@babel/core@7.22.9)(coffeescript@2.7.0)(postcss@8.4.26)(pug@3.0.2)(stylus@0.59.0)(svelte@4.0.5):
     resolution: {integrity: sha512-X7KbKn6peBzaFJZJHrqmLhiU8E0kor5VbofeYsIwD1bDUpSEbc7ZKVhX/47lkK2y0W6veT/t/gddMSIFHbtaCg==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -3262,7 +3262,7 @@ packages:
       coffeescript: 2.7.0
       detect-indent: 6.1.0
       magic-string: 0.30.1
-      postcss: 8.4.25
+      postcss: 8.4.26
       pug: 3.0.2
       sorcery: 0.11.0
       strip-indent: 3.0.0
@@ -3589,7 +3589,7 @@ packages:
     resolution: {integrity: sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.25):
+  /autoprefixer@10.4.14(postcss@8.4.26):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -3601,7 +3601,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.25
+      postcss: 8.4.26
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -6431,14 +6431,14 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /postcss-csso@6.0.1(postcss@8.4.25):
+  /postcss-csso@6.0.1(postcss@8.4.26):
     resolution: {integrity: sha512-ZV4yEziMrx6CEiqabGLrDva0pMD7Fbw7yP+LzJvaynM4OJgTssGN6dHiMsJMJdpmNaLJltXVLsrb/5sxbFa8sA==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
       csso: 5.0.5
-      postcss: 8.4.25
+      postcss: 8.4.26
     dev: true
 
   /postcss-plugin-px2em@1.0.1:
@@ -6461,8 +6461,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /postcss@8.4.25:
-    resolution: {integrity: sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==}
+  /postcss@8.4.26:
+    resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
