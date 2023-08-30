@@ -17,7 +17,7 @@
   "devDependencies": {
     "!": "link:./lib",
     "@babel/cli": "^7.22.10",
-    "@babel/core": "^7.22.10",
+    "@babel/core": "^7.22.11",
     "@babel/preset-env": "^7.22.10",
     "@prettier/plugin-pug": "^3.0.0",
     "@tanishiking/aho-corasick": "^0.0.1",
@@ -42,7 +42,7 @@
     "chalk": "^5.3.0",
     "chokidar": "^3.5.3",
     "coffeescript": "^2.7.0",
-    "concurrently": "^8.2.0",
+    "concurrently": "^8.2.1",
     "esbuild": "^0.19.2",
     "eslint-plugin-coffee": "^0.1.15",
     "eslint-plugin-svelte3": "^4.0.0",
@@ -53,14 +53,14 @@
     "merge-source-map": "^1.1.0",
     "nanoid": "^4.0.2",
     "nodemon": "^3.0.1",
-    "postcss": "^8.4.28",
+    "postcss": "^8.4.29",
     "postcss-csso": "^6.0.1",
     "postcss-plugin-px2em": "^1.0.1",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "pug": "^3.0.2",
     "pug-cli": "1.0.0-alpha6",
     "styl": "link:../styl/src",
-    "stylus": "^0.59.0",
+    "stylus": "^0.60.0",
     "svelte": "^4.2.0",
     "typed.js": "^2.0.132",
     "uglify-js": "^3.17.4",
@@ -83,10 +83,10 @@
     ]
   },
   "dependencies": {
-    "@w5/coffee_plus": "^0.0.13",
+    "@w5/coffee_plus": "^0.0.17",
     "@w5/default": "^0.0.1",
     "@w5/mdt": "^0.0.16",
-    "@w5/ossput": "^0.0.11",
+    "@w5/ossput": "^0.0.15",
     "radix-64": "^1.0.4"
   }
 }
