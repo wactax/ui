@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.0.16
     version: 0.0.16
   '@w5/ossput':
-    specifier: ^0.0.18
-    version: 0.0.18
+    specifier: ^0.0.19
+    version: 0.0.19
   radix-64:
     specifier: ^1.0.4
     version: 1.0.4
@@ -3342,8 +3342,8 @@ packages:
       yargs: 17.7.1
     dev: false
 
-  /@w5/ossput@0.0.18:
-    resolution: {integrity: sha512-nMnO+9M7VhFf3uBpGinnCcjEVyzxhN751UZ5ZfTrKv7TSGNOipCgb+aVJvWGwkxBj41aCRdgmb16kB+dg2eKeg==}
+  /@w5/ossput@0.0.19:
+    resolution: {integrity: sha512-1YxaJCXiAks7EB0HecQQ8EUlE4cl0IRuhyfhwq+rEfPhiyqFvCUqFLGYjwxVguoNKhWTvd+1uh9KDtkuLosI2A==}
     dependencies:
       '@aws-sdk/abort-controller': 3.374.0
       '@aws-sdk/client-s3': 3.400.0
